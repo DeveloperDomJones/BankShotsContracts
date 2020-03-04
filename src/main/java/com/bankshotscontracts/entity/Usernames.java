@@ -1,5 +1,6 @@
 package com.bankshotscontracts.entity;
 
+import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.Transient;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -11,12 +12,8 @@ import lombok.Setter;
 @Setter
 @Document(collection = "usernames")
 public class Usernames {
-	
-	@Transient
-    public static final String SEQUENCE_NAME = "users_sequence";
-	
-	@Id
-    private long id;
+
 	String username;
+	ObjectId id;
 
 }
