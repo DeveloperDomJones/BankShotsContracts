@@ -1,14 +1,11 @@
 package com.bankshotscontracts.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 
-@Getter
-@Setter
-@NoArgsConstructor
-@AllArgsConstructor
+import lombok.Data;
+
+@Data
 public class AccountSettings {
 	
 	private String firstName;
@@ -19,9 +16,9 @@ public class AccountSettings {
 	private String country;
 	private String birthday;
 	private String email;
-//	private LocalDate dateCreated;
-//	private LocalDateTime lastActive;
-//	private LocalDateTime lastUpdate;
+	private LocalDate dateCreated;
+	private LocalDateTime lastActive;
+	private LocalDateTime lastUpdate;
 	private boolean online; 
 	private String role;
 	private boolean accountsOwner;
