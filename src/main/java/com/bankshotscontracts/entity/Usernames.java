@@ -3,11 +3,9 @@ package com.bankshotscontracts.entity;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
-@Getter
-@Setter
+@Data
 @Document(collection = "usernames")
 public class Usernames {
 
