@@ -10,7 +10,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @Document(collection = "accountSettings")
-public class SignUpRequest {
+public class AccountSettingsRequest {
 	
 	private String username;
 	private String password;
