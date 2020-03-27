@@ -1,5 +1,7 @@
 package com.bankshotscontracts.model;
 
+import java.time.LocalDate;
+
 import lombok.Data;
 
 @Data
@@ -10,7 +12,7 @@ public class AccountSettings {
 	private String city;
 	private String state;
 	private String country;
-	private String birthday;
+	private LocalDate birthday;
 	private String employmentStatus;
 	private String employer;
 	private String occupation;

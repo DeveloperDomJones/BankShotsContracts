@@ -3,6 +3,7 @@ package com.bankshotscontracts.entity;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
+import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -17,7 +18,7 @@ import lombok.Setter;
 public class AccountSettingsRequest {
 	
 	@Id
-	private String id;
+	private ObjectId id;
 	private String email;
 	private String password;
 	private LocalDate dateCreated;
