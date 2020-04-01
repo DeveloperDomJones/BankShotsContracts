@@ -7,15 +7,13 @@ import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import com.bankshotscontracts.model.AccountSettings;
-
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
 @Document(collection = "accountSettings")
-public class AccountSettingsRequest {
+public class AccountSettings {
 	
 	@Id
 	private ObjectId id;
