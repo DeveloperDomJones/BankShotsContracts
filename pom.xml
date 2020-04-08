@@ -19,7 +19,7 @@
 		<repository>
 			<id>github</id>
 			<name>GitHub DeveloperDomJones Apache Maven Packages</name>
-			<url>https://maven.pkg.github.com/DeveloperDomJones/BankShotsContracts</url>
+			<url>https://maven.pkg.github.com/developerdomjones/bankshotscontracts</url>
 		</repository>
 	</distributionManagement>
 
