@@ -7,7 +7,6 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import com.bankshotscontracts.model.Stock;
-import com.bankshotscontracts.model.Stocks;
 
 import lombok.Getter;
 import lombok.Setter;
