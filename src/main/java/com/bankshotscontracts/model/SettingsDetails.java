@@ -5,7 +5,7 @@ import java.time.LocalDate;
 import lombok.Data;
 
 @Data
-public class AccountSettingsDetails {
+public class SettingsDetails {
 	
 	private String firstName;
 	private String lastName;

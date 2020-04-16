@@ -7,7 +7,7 @@ import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import com.bankshotscontracts.model.AccountSettingsDetails;
+import com.bankshotscontracts.model.SettingsDetails;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -15,7 +15,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @Document(collection = "accountSettings")
-public class AccountSettings {
+public class Settings {
 	
 	@Id
 	private ObjectId id;
@@ -26,6 +26,6 @@ public class AccountSettings {
 	private LocalDateTime lastUpdate;
 	private String role;
 	private boolean online; 
-	private AccountSettingsDetails accountSettingsDetails;
+	private SettingsDetails accountSettingsDetails;
 
 }
