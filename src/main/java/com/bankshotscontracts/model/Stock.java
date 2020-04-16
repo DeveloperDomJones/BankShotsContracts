@@ -3,9 +3,10 @@ package com.bankshotscontracts.model;
 import lombok.Data;
 
 @Data
-public class Stocks {
+public class Stock {
 	
 	private String symbol;
 	private double holdings;
+	private double marketValue;
 
 }
