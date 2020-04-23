@@ -7,6 +7,4 @@ public class Stock {
 	
 	private String symbol;
 	private double holdings;
-	private double marketValue;
-
 }
