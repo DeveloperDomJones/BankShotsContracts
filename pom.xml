@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>com.bankshotscontracts</groupId>
 	<artifactId>BankShotsContracts</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.3</version>
 	<name>BankShotsContracts</name>
 	<description>Contract jar for BankShots Application</description>
 
@@ -19,7 +19,7 @@
 		<repository>
 			<id>github</id>
 			<name>GitHub DeveloperDomJones Apache Maven Packages</name>
-			<url>https://maven.pkg.github.com/developerdomjones/bankshotscontracts</url>
+			<url>https://maven.pkg.github.com/DeveloperDomJones/BankShotsContracts</url>
 		</repository>
 	</distributionManagement>
 
