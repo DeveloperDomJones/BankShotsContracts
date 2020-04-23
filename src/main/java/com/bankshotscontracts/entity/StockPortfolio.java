@@ -17,7 +17,7 @@ import lombok.Setter;
 public class StockPortfolio {
 	
 	@Id
-	private ObjectId id;
+	private String id;
 	private String accountId;
 	private List<Stock> stocks;
 
