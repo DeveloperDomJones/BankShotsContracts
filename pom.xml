@@ -9,7 +9,7 @@
 		<version>2.2.4.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>io.github.bankshotscontracts</groupId>
+	<groupId>io.github.developerdomjones</groupId>
 	<artifactId>BankShotsContracts</artifactId>
 	<version>0.0.1</version>
 	<packaging>jar</packaging>
